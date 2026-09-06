@@ -1,0 +1,40 @@
+{
+    "nombre_modelo": "Regresión Logística L2 balanceada",
+    "version": "1.0.0",
+    "variable_objetivo": "Churn",
+    "umbral_operativo": 0.5255954618210013,
+    "random_state": 42,
+    "registros_entrenamiento": 5977,
+    "registros_test": 1055,
+    "cantidad_predictores": 19,
+    "predictores": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "metricas_test": {
+        "Accuracy": 0.7374407582938388,
+        "Balanced_Accuracy": 0.7391705069124423,
+        "Precision": 0.5036319612590799,
+        "Recall": 0.7428571428571429,
+        "F1": 0.6002886002886003,
+        "ROC_AUC": 0.8223940092165898,
+        "PR_AUC": 0.5835206517203269
+    }
+}

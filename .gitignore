@@ -1,0 +1,36 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow local
+mlruns/
+notebooks/mlruns/
+mlflow.db
+mlartifacts/
+
+# Modelos binarios
+*.joblib
+*.pkl
+
+# Datos locales
+data/raw/*
+data/processed/*
+
+# Mantener estructura de carpetas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Variables privadas
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
